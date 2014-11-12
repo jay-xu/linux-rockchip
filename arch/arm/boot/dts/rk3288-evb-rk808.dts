@@ -83,6 +83,7 @@
 				regulator-max-microvolt = <3300000>;
 				regulator-name = "vcc_io";
 				regulator-state-mem {
+					regulator-on-in-suspend;
 					regulator-suspend-microvolt = <3300000>;
 				};
 			};
@@ -94,6 +95,7 @@
 				regulator-max-microvolt = <3300000>;
 				regulator-name = "vccio_pmu";
 				regulator-state-mem {
+					regulator-on-in-suspend;
 					regulator-suspend-microvolt = <3300000>;
 				};
 			};
@@ -116,6 +118,7 @@
 				regulator-max-microvolt = <1000000>;
 				regulator-name = "vdd_10";
 				regulator-state-mem {
+					regulator-on-in-suspend;
 					regulator-suspend-microvolt = <1000000>;
 				};
 			};
@@ -161,6 +164,7 @@
 				regulator-name = "vcc_18";
 				regulator-suspend-mem-microvolt = <1800000>;
 				regulator-state-mem {
+					regulator-on-in-suspend;
 					regulator-suspend-microvolt = <1800000>;
 				};
 			};
